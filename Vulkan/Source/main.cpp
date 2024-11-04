@@ -45,6 +45,7 @@ private:
 	{
 		createInstance();
 		setUpDebuggerMessenger();
+		pickPhysicalDevice();
 	}
 
 	void setUpDebuggerMessenger()
